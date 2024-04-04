@@ -41,7 +41,9 @@ const plugins = [
 ];
 
 const nextConfig = {
-  transpilePackages: ['@jitsi/react-sdk'],
+
+ // transpilePackages: ['@jitsi/react-sdk'],
+
   distDir: "build",
   swcMinify: true,
   webpack: (config, { isServer }) => {
